@@ -1,0 +1,48 @@
+.footer {
+  background: #111;
+  color: #eee;
+  padding: 2rem 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.brand h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  margin-bottom: 0.5rem;
+}
+
+.nav a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.social a {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #aaa;
+}
+
+.creator {
+  font-weight: 500;
+  color: #ccc;
+}
