@@ -1,0 +1,159 @@
+/* === Carousel Container === */
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  width: max-content;
+}
+
+/* Pause when modal is open */
+.paused .track {
+  animation-play-state: paused;
+}
+
+/* === Slide Images === */
+.slide {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 150px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Mobile-first smaller slide sizes */
+@media (max-width: 600px) {
+  .slide {
+    width: 140px;
+    height: 100px;
+    margin-right: 12px;
+  }
+}
+
+/* Infinite scrolling keyframes */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* === Modal Styles === */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+}
+
+.modalContent img {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.modalContent p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #fff;
+  border: none;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 4px 10px;
+  z-index: 1100;
+}
+
+/* === Modal Chevron Navigation === */
+.chevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 1100;
+}
+
+/* Left and right placement */
+.left {
+  left: 20px;
+}
+
+.right {
+  right: 20px;
+}
+
+/* === Mobile behavior: chevrons animate as swipe hint === */
+@media (max-width: 768px) {
+  .chevron {
+    font-size: 32px;
+    background: transparent;
+    /* animation: moveSwipe 2s infinite; */
+  }
+
+  .left {
+    animation-direction: reverse;
+  }
+
+  .right {
+    animation-direction: normal;
+  }
+
+  @keyframes moveSwipe {
+    0% {
+      transform: translateY(-50%) translateX(0);
+    }
+    50% {
+      transform: translateY(-50%) translateX(15px);
+    }
+    100% {
+      transform: translateY(-50%) translateX(0);
+    }
+  }
+}
+
+/* === Desktop behavior: chevrons static clickable === */
+@media (min-width: 769px) {
+  .chevron {
+    animation: none;
+  }
+}
