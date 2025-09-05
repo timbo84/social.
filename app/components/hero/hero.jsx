@@ -18,9 +18,8 @@ export default function Hero () {
 
       <div className={styles.overlay}>
         <div className={styles.content}>
-          <h1>SOCIAL. EVENT RENTALS</h1>
+          <h1>SOCIAL EVENT RENTALS</h1>
           <p className={styles.reviews}>Loved by Event Planners Everywhere!</p>
-          <p className={styles.scroll}>- Let the Fun Begin ↓</p>
         </div>
       </div>
     </section>

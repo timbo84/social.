@@ -37,7 +37,7 @@ export default function Navbar() {
       <div className={styles.container}>
         <div className={styles.header}>
           <Link href="/" className={styles.logo} onClick={closeMenu}>
-            <p>Social. Event Rentals</p>
+            <p>Social Event Rentals</p>
           </Link>
 
           <div className={styles.desktopNav}>
