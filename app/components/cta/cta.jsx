@@ -5,9 +5,9 @@ export default function CTASection() {
     <section className={styles.cta}>
       <div className={styles.overlay}>
         <div className={styles.content}>
-          <h1 className={styles.heading}>Photo Booth Rentals That Make Every Moment Shine</h1>
+          <h1 className={styles.heading}>Photo Booths make it a real party</h1>
           <p className={styles.description}>
-            Perfect for corporate parties, weddings, birthdays, and more. Customize your experience with open-air or enclosed booths.
+           Contact us to customize your experience.
           </p>
           <div className={styles.buttons}>
             <button className={styles.primary}>GET IN TOUCH</button>
