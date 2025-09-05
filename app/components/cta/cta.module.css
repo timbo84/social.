@@ -19,14 +19,13 @@
 }
 
 .heading {
-  font-size: clamp(2rem, 6vw, 5rem);
+  font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .description {
-    font-family: 'CustomFont2', sans-serif;
-  font-size: 2rem;
+  font-size: 1.1rem;
   margin-bottom: 2rem;
 }
 

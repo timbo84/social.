@@ -3,11 +3,11 @@ import styles from './partners.module.css';
 import Carousel from '../carousel/carousel';
 
 const images = [
-  { alt: 'Nike Soccer Activation', src: '/images/c1.jpeg' },
-  { alt: 'Foot Locker Jumpman LA', src: '/images/c2.jpeg' },
-  { alt: 'Nike Women’s Classic NYC', src: '/images/c3.jpeg' },
-  { alt: 'Clubhouse at Chase Center', src: '/images/c4.jpeg' },
-  { alt: 'Fendi Event Setup', src: '/images/c5.jpeg' },
+  { alt: 'c1', src: '/images/c1.jpeg' },
+  { alt: 'c2', src: '/images/c2.jpeg' },
+  { alt: 'c3', src: '/images/c3.jpeg' },
+  { alt: 'c4', src: '/images/c4.jpeg' },
+  { alt: 'c5', src: '/images/c5.jpeg' },
   { alt: 'c6', src: '/images/c6.jpeg' },
   { alt: 'c7', src: '/images/c7.jpeg' },
   { alt: 'c8', src: '/images/c8.jpeg' },

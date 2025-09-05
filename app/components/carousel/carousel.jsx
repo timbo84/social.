@@ -78,7 +78,7 @@ const Carousel = ({ images }) => {
             </button>
 
             <img src={images[selectedIndex].src} alt={images[selectedIndex].alt} />
-            <p>{images[selectedIndex].alt}</p>
+            {/* <p>{images[selectedIndex].alt}</p> */}
 
             {/* 👇 Chevron navigation */}
             <button className={`${styles.chevron} ${styles.left}`} onClick={prevImage}>

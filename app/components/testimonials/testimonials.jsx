@@ -29,7 +29,7 @@ export default function Testimonials () {
           <div className={styles.overlay}>
             <div className={styles.text}>
               <p className={styles.quote}>{item.quote}</p>
-              <button className={styles.button}>MORE RAVES</button>
+              {/* <button className={styles.button}>MORE RAVES</button> */}
             </div>
           </div>
         </section>
