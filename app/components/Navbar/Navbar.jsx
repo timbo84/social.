@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className={styles.container}>
         <div className={styles.header}>
           <Link href="/" className={styles.logo}>
-            <Image src="/images/socialLogo.png" alt="Logo" width={150} height={80} />
+            <Image src="/images/socialLogo.png" alt="Logo" width={125} height={60} />
           </Link>
 
           <div className={styles.desktopNav}>
