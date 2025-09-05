@@ -16,8 +16,8 @@ const images = [
   { alt: 'c11', src: '/images/c11.jpg' },
   { alt: 'c12', src: '/images/c12.jpg' },
   { alt: 'c13', src: '/images/c13.jpg' },
-  { alt: 'c14', src: '/images/c14.jpg' },
-  { alt: 'c15', src: '/images/c15.jpg' },
+  { alt: 'c14', src: '/images/c14.jpeg' },
+  { alt: 'c15', src: '/images/c15.jpeg' },
 ];
 
 export default function CompanyGallery() {
