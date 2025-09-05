@@ -1,12 +1,10 @@
-"use client";
-
-import { useSearchParams } from "next/navigation";
-import BookingForm from "@/app/components/BookingDetails/BookingForm";
+import { Suspense } from "react";
+import BookingDetailsClient from "./BookingDetailsClient";
 
 export default function BookingDetailsPage() {
-  const searchParams = useSearchParams();
-  const dateParam = searchParams.get("date");
-  const initialDate = dateParam ? new Date(dateParam) : null;
-
-  return <BookingForm initialDate={initialDate} />;
+  return (
+    <Suspense fallback={<div>Loading booking details...</div>}>
+      <BookingDetailsClient />
+    </Suspense>
+  );
 }
