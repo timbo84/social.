@@ -1,4 +1,6 @@
-import styles from './cta.module.css';
+import styles from "./cta.module.css";
+import Link from "next/link";
+
 
 export default function CTASection() {
   return (
@@ -7,11 +9,15 @@ export default function CTASection() {
         <div className={styles.content}>
           <h1 className={styles.heading}>Photo Booths make it a real party</h1>
           <p className={styles.description}>
-           Contact us to customize your experience.
+            Contact us to customize your experience.
           </p>
           <div className={styles.buttons}>
-            <button className={styles.primary}>GET IN TOUCH</button>
-            <button className={styles.secondary}>BOOK NOW</button>
+            <Link href="/contact" className={styles.primary}>
+              GET IN TOUCH
+            </Link>
+            <Link href="/booking" className={styles.secondary}>
+              BOOK NOW
+            </Link>
           </div>
         </div>
       </div>

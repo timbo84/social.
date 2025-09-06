@@ -1,0 +1,74 @@
+.servicesSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: #222;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.cardDesc {
+  flex-grow: 1;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.cardButton {
+  display: inline-block;
+  background: black;
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.cardButton:hover {
+  background: #333;
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px; /* or whatever height fits your layout */
+  object-fit: cover; /* ensures image fills container without distortion */
+  border-radius: 8px; /* optional: adds rounded corners */
+  display: block;
+}

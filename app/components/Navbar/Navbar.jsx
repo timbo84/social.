@@ -42,10 +42,9 @@ export default function Navbar() {
 
           <div className={styles.desktopNav}>
             <Link href="/" className={styles.link}>Home</Link>
-            <Link href="#gallery" className={styles.link}>Gallery</Link>
+            <Link href="/gallery" className={styles.link}>Gallery</Link>
             <Link href="#services" className={styles.link}>Services</Link>
-            <Link href="/booking" className={styles.link}>Booking</Link>
-            <Link href="#contact" className={styles.link}>Contact</Link>
+            <Link href="/contact" className={styles.link}>Contact</Link>
           </div>
 
           <Link href="/booking" className={styles.cta}>
@@ -67,10 +66,9 @@ export default function Navbar() {
         {isMobileMenuOpen && (
           <div className={styles.mobileMenu} ref={menuRef}>
             <Link href="/" className={styles.link} onClick={closeMenu}>Home</Link>
-            <Link href="#gallery" className={styles.link} onClick={closeMenu}>Gallery</Link>
+            <Link href="/gallery" className={styles.link} onClick={closeMenu}>Gallery</Link>
             <Link href="#services" className={styles.link} onClick={closeMenu}>Services</Link>
-            <Link href="/booking" className={styles.link} onClick={closeMenu}>Booking</Link>
-            <Link href="#contact" className={styles.link} onClick={closeMenu}>Contact</Link>
+            <Link href="/contact" className={styles.link} onClick={closeMenu}>Contact</Link>
             <Link href="/booking" className={styles.mobileCTA} onClick={closeMenu}>
               Book Now
             </Link>

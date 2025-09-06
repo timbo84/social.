@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Social. Event Rentals",
+  title: "Social Event Rentals",
   description:
     "Social Event Rentals provides premium party equipment and event design services to elevate any celebration. With years of experience and a passion for unforgettable experiences, we deliver high-quality rentals and creative setups for weddings, corporate events, and private gatherings.",
 };

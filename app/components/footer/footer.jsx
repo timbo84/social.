@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.brand}>
-          <h2>Social. Event Rentals</h2>
+          <h2>Social Event Rentals</h2>
           <p>Elevating celebrations with premium rentals and design.</p>
         </div>
 
@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.bottom}>
-        <p>&copy; {new Date().getFullYear()} Social. Event Rentals. All rights reserved.
+        <p>&copy; {new Date().getFullYear()} Social Event Rentals. All rights reserved.
             Designed and developed by <span className={styles.creator}>Timothy Roberts</span>.
         </p>
       </div>
