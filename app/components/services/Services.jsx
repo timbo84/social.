@@ -5,18 +5,18 @@ import styles from "./Services.module.css";
 
 const services = [
   {
-    title: "Photo Booth w/ Backdrops",
+    title: "Event Photo Booth",
     description:
       "Capture memories with customizable backdrops for any occasion. Perfect for weddings, birthdays, and special events where your guests can strike a pose.",
-    link: "/services/photo-booth",
-    image: "/images/booth1.jpeg"
+    link: "/services/event-photo-booth",
+    image: "/images/event1.jpeg"
   },
   {
     title: "Snack Cart",
     description:
       "Delight your guests with a variety of snacks and treats served in style. Our snack cart adds a fun and interactive touch to your celebration.",
     link: "/services/snack-cart",
-    image: "/images/snack1.png"
+    image: "/images/snackMain.jpg"
   },
   {
     title: "Flower Arch",
@@ -26,10 +26,10 @@ const services = [
     image: "/images/flower1.jpg"
   },
   {
-    title: "Brand Activation",
+    title: "Business Branding",
     description:
       "Boost engagement with a photo booth experience customized for your brand. Perfect for launches, pop-ups, and promotional events.",
-    link: "/services/brand-activation",
+    link: "/services/business-branding",
     image: "/images/brand1.jpeg"
   },
   {

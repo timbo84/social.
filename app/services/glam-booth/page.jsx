@@ -22,7 +22,7 @@ export default function GlamBooth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/glam1.jpeg"
+              src="/images/glam5.jpeg"
               alt="Glam booth setup with black-and-white filter"
               className={styles.image}
             />
@@ -57,7 +57,7 @@ export default function GlamBooth() {
           </div>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/glam2.jpeg"
+              src="/images/glam3.jpeg"
               alt="Guests posing in glam booth"
               className={styles.image}
             />
@@ -68,7 +68,7 @@ export default function GlamBooth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/glam3.jpeg"
+              src="/images/glam6.jpg"
               alt="Glam booth print station"
               className={styles.image}
             />

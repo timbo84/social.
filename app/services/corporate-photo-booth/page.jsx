@@ -22,7 +22,7 @@ export default function CorporatePhotoBooth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/corporate1.jpg"
+              src="/images/corporate2.jpeg"
               alt="Corporate photo booth setup"
               className={styles.image}
             />
@@ -57,7 +57,7 @@ export default function CorporatePhotoBooth() {
           </div>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/corporate2.jpeg"
+              src="/images/corporate5.jpeg"
               alt="Branded photo booth for corporate event"
               className={styles.image}
             />
