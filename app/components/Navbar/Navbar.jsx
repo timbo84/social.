@@ -52,12 +52,12 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <Link
+          {/* <Link
             href="https://buy.stripe.com/test_6oUeV65WP1WTg7vg0R4sE00"
             className={styles.cta}
           >
             Make a Payment
-          </Link>
+          </Link> */}
 
           <Link href="/booking" className={styles.cta}>
             Book Now
