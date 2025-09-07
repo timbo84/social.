@@ -15,10 +15,7 @@ export default function Navbar() {
   // Close when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (
-        menuRef.current &&
-        !menuRef.current.contains(event.target)
-      ) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
         setIsMobileMenuOpen(false);
       }
     };
@@ -41,11 +38,26 @@ export default function Navbar() {
           </Link>
 
           <div className={styles.desktopNav}>
-            <Link href="/" className={styles.link}>Home</Link>
-            <Link href="/gallery" className={styles.link}>Gallery</Link>
-            <Link href="#services" className={styles.link}>Services</Link>
-            <Link href="/contact" className={styles.link}>Contact</Link>
+            <Link href="/" className={styles.link}>
+              Home
+            </Link>
+            <Link href="/gallery" className={styles.link}>
+              Gallery
+            </Link>
+            <Link href="#services" className={styles.link}>
+              Services
+            </Link>
+            <Link href="/contact" className={styles.link}>
+              Contact
+            </Link>
           </div>
+
+          <Link
+            href="https://buy.stripe.com/test_6oUeV65WP1WTg7vg0R4sE00"
+            className={styles.cta}
+          >
+            Make a Payment
+          </Link>
 
           <Link href="/booking" className={styles.cta}>
             Book Now
@@ -53,7 +65,9 @@ export default function Navbar() {
 
           {/* Hamburger */}
           <button
-            className={`${styles.mobileToggle} ${isMobileMenuOpen ? styles.open : ""}`}
+            className={`${styles.mobileToggle} ${
+              isMobileMenuOpen ? styles.open : ""
+            }`}
             onClick={toggleMobileMenu}
             aria-label="Toggle mobile menu"
           >
@@ -65,11 +79,31 @@ export default function Navbar() {
 
         {isMobileMenuOpen && (
           <div className={styles.mobileMenu} ref={menuRef}>
-            <Link href="/" className={styles.link} onClick={closeMenu}>Home</Link>
-            <Link href="/gallery" className={styles.link} onClick={closeMenu}>Gallery</Link>
-            <Link href="#services" className={styles.link} onClick={closeMenu}>Services</Link>
-            <Link href="/contact" className={styles.link} onClick={closeMenu}>Contact</Link>
-            <Link href="/booking" className={styles.mobileCTA} onClick={closeMenu}>
+            <Link href="/" className={styles.link} onClick={closeMenu}>
+              Home
+            </Link>
+            <Link href="/gallery" className={styles.link} onClick={closeMenu}>
+              Gallery
+            </Link>
+            <Link href="#services" className={styles.link} onClick={closeMenu}>
+              Services
+            </Link>
+            <Link href="/contact" className={styles.link} onClick={closeMenu}>
+              Contact
+            </Link>
+            <Link
+              href="https://buy.stripe.com/test_6oUeV65WP1WTg7vg0R4sE00"
+              className={styles.mobileCTA}
+              onClick={closeMenu}
+            >
+              Make a Payment
+            </Link>
+
+            <Link
+              href="/booking"
+              className={styles.mobileCTA}
+              onClick={closeMenu}
+            >
               Book Now
             </Link>
           </div>
