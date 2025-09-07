@@ -14,16 +14,17 @@ export default function Navbar() {
 
   // Close when clicking outside
   useEffect(() => {
-    const handleClickOutside = (event) => {
+    const handleDocumentClick = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
         setIsMobileMenuOpen(false);
       }
     };
+
     if (isMobileMenuOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener("click", handleDocumentClick);
     }
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("click", handleDocumentClick);
     };
   }, [isMobileMenuOpen]);
 
@@ -69,7 +70,9 @@ export default function Navbar() {
               isMobileMenuOpen ? styles.open : ""
             }`}
             onClick={toggleMobileMenu}
-            aria-label="Toggle mobile menu"
+            aria-label={
+              isMobileMenuOpen ? "Close mobile menu" : "Open mobile menu"
+            }
           >
             <span className={styles.bar}></span>
             <span className={styles.bar}></span>

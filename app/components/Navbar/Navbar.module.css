@@ -78,6 +78,7 @@
   background-color: #222;
   border-radius: 3px;
   transition: all 0.3s ease;
+  z-index: 70;
 }
 
 /* Animate into X */
