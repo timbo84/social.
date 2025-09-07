@@ -7,12 +7,13 @@ import Testimonials from "./components/testimonials/testimonials";
 import Services from "./components/services/Services";
 
 export default function Home() {
-  return (<>
-  <HeroSection />
-   <CTASection />
-   <Partners />
-   <Testimonials />
-   <Services />
+  return (
+    <>
+      <HeroSection />
+      <CTASection />
+      <Partners />
+      <Services />
+      <Testimonials />
     </>
   );
 }

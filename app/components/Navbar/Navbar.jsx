@@ -91,13 +91,13 @@ export default function Navbar() {
             <Link href="/contact" className={styles.link} onClick={closeMenu}>
               Contact
             </Link>
-            <Link
+            {/* <Link
               href="https://buy.stripe.com/test_6oUeV65WP1WTg7vg0R4sE00"
               className={styles.mobileCTA}
               onClick={closeMenu}
             >
               Make a Payment
-            </Link>
+            </Link> */}
 
             <Link
               href="/booking"

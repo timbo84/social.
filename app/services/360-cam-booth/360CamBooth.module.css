@@ -9,7 +9,6 @@
   position: relative;
   height: 85vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -23,7 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/snack9.jpg"); /* Replace with your image path */
+  background-image: url("/images/360cam1.jpeg"); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,19 +49,6 @@
   margin-top: 1rem;
   animation: fadeIn 1.5s ease-out forwards;
   opacity: 0;
-}
-
-.social {
-  margin-top: 7rem;
-}
-
-.social a {
-  font-size: 3rem;
-  color: white;
-  text-decoration: none;
-}
-.social a:hover {
-  color: #ddd;
 }
 
 /* Animations */
@@ -144,6 +130,7 @@
   display: block;
   margin: 0 auto;
 }
+
 /* Responsive */
 @media (max-width: 768px) {
   .content {

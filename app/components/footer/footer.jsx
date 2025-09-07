@@ -9,7 +9,7 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.brand}>
           <h2>Social Event Rentals</h2>
-          <p>Elevating celebrations with premium rentals and design.</p>
+          <p>Elevating celebrations with premium rentals.</p>
         </div>
 
         <nav className={styles.nav}>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import styles from "./SnackCart.module.css";
+import { FaInstagram, FaFacebookF, FaEnvelope } from "react-icons/fa";
 
 export default function SnackCart() {
   return (
@@ -12,8 +13,22 @@ export default function SnackCart() {
         <div className={styles.heroContent}>
           <h1 className={styles.title}>Snack Cart</h1>
           <p className={styles.subtitle}>
-            Add flavor and fun to your event with a snack cart that’s as delightful as it is delicious.
+            Add flavor and fun to your event with a snack cart that’s as
+            delightful as it is delicious.
           </p>
+          <div className={styles.social}>
+            <p className={styles.subtitle}>
+            Follow us on
+          </p>
+            <a
+              href="https://instagram.com/yourhandle"
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className={styles.icon} />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -30,10 +45,13 @@ export default function SnackCart() {
           <div className={styles.textBlock}>
             <h2>Sweet & Savory Selections</h2>
             <p>
-              Our snack cart is a crowd favorite, offering a curated mix of treats that guests can grab and enjoy on the go. From popcorn and candy to gourmet bites, we’ve got something for every craving.
+              Our snack cart is a crowd favorite, offering a curated mix of
+              treats that guests can grab and enjoy on the go. From popcorn and
+              candy to gourmet bites, we’ve got something for every craving.
             </p>
             <p>
-              Perfect for weddings, birthdays, and corporate mixers, it’s a tasty way to keep the energy high and the smiles wide.
+              Perfect for weddings, birthdays, and corporate mixers, it’s a
+              tasty way to keep the energy high and the smiles wide.
             </p>
             <Link href="/booking" className={styles.cta}>
               Reserve Your Cart
@@ -46,10 +64,14 @@ export default function SnackCart() {
           <div className={styles.textBlock}>
             <h2>Styled to Match Your Theme</h2>
             <p>
-              Whether you're going rustic, retro, or ultra-modern, our cart can be styled to complement your event’s aesthetic. We’ll work with you to choose colors, signage, and display elements that feel cohesive and fun.
+              Whether you're going rustic, retro, or ultra-modern, our cart can
+              be styled to complement your event’s aesthetic. We’ll work with
+              you to choose colors, signage, and display elements that feel
+              cohesive and fun.
             </p>
             <p>
-              It’s not just about snacks—it’s about creating a visual moment that guests will remember.
+              It’s not just about snacks—it’s about creating a visual moment
+              that guests will remember.
             </p>
             <Link href="/booking" className={styles.cta}>
               Customize Your Look
@@ -76,10 +98,13 @@ export default function SnackCart() {
           <div className={styles.textBlock}>
             <h2>Interactive & Fun</h2>
             <p>
-              Guests love the freedom to pick their favorites, and the cart becomes a natural gathering spot. It’s a great way to break the ice and keep the vibe light and festive.
+              Guests love the freedom to pick their favorites, and the cart
+              becomes a natural gathering spot. It’s a great way to break the
+              ice and keep the vibe light and festive.
             </p>
             <p>
-              Whether it’s a midday pick-me-up or a late-night treat station, our snack cart delivers joy in every bite.
+              Whether it’s a midday pick-me-up or a late-night treat station,
+              our snack cart delivers joy in every bite.
             </p>
             <Link href="/booking" className={styles.cta}>
               Let’s Get Snacking

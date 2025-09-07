@@ -33,6 +33,9 @@ export default function ContactForm() {
         <p className={styles.subtitle}>
           Have questions or want to book with us? Fill out the form below.
         </p>
+        <p className={styles.subtitle}>
+          We can't wait to hear from you!
+        </p>
 
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.formGroup}>

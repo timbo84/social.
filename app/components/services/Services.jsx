@@ -9,7 +9,7 @@ const services = [
     description:
       "Capture memories with customizable backdrops for any occasion. Perfect for weddings, birthdays, and special events where your guests can strike a pose.",
     link: "/services/event-photo-booth",
-    image: "/images/event1.jpeg"
+    image: "/images/brand1.jpeg"
   },
   {
     title: "Snack Cart",
@@ -26,12 +26,20 @@ const services = [
     image: "/images/flower1.jpg"
   },
   {
-    title: "Business Branding",
+    title: "360 Cam Booth",
     description:
-      "Boost engagement with a photo booth experience customized for your brand. Perfect for launches, pop-ups, and promotional events.",
-    link: "/services/business-branding",
-    image: "/images/brand1.jpeg"
+      "Give your guests the spotlight with our immersive 360 cam booth. Capture dynamic, slow-motion videos from every angle.",
+    link: "/services/360-cam-booth",
+    image: "/images/360cam1.jpeg" // Update this path to match your actual image
   },
+
+  // {
+  //   title: "Business Branding",
+  //   description:
+  //     "Boost engagement with a photo booth experience customized for your brand. Perfect for launches, pop-ups, and promotional events.",
+  //   link: "/services/business-branding",
+  //   image: "/images/brand5.jpeg"
+  // },
   {
     title: "Corporate Photo Booth",
     description:
@@ -51,23 +59,24 @@ const services = [
 export default function Services() {
   return (
     <section className={styles.servicesSection}>
-      <h2 className={styles.title}>Our Services</h2>
-      <div className={styles.cardGrid}>
-        {services.map((service, i) => (
-          <div key={i} className={styles.card}>
-            <h3 className={styles.cardTitle}>{service.title}</h3>
-            <img
-              src= {service.image}
-              alt={service.title}
-              className={styles.cardImage}
-            />
-            <p className={styles.cardDesc}>{service.description}</p>
-            <Link href={service.link} className={styles.cardButton}>
-              Explore More
-            </Link>
-          </div>
-        ))}
-      </div>
-    </section>
+  <h2 className={styles.title}>Our Services</h2>
+  <div className={styles.cardGrid}>
+    {services.map((service, i) => (
+      <Link href={service.link} key={i} className={styles.cardLink}>
+        <div className={styles.card}>
+          <h3 className={styles.cardTitle}>{service.title}</h3>
+          <img
+            src={service.image}
+            alt={service.title}
+            className={styles.cardImage}
+          />
+          <p className={styles.cardDesc}>{service.description}</p>
+          <span className={styles.cardButton}>Explore More</span>
+        </div>
+      </Link>
+    ))}
+  </div>
+</section>
+
   );
 }
