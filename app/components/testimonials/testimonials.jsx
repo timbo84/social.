@@ -23,7 +23,7 @@ const testimonialsData = [
 export default function Testimonials () {
   return (
     <>
-    <h1 className={styles.heading}>What Our Clients Are Saying</h1>
+    <h1 className={styles.heading}>Don't just take our word for it</h1>
       {testimonialsData.map((item, index) => (
         <section key={index} className={`${styles.testimonial} ${styles[item.backgroundClass]}`}>
           <div className={styles.overlay}>

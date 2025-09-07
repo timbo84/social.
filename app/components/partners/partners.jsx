@@ -23,12 +23,7 @@ const images = [
 export default function CompanyGallery() {
   return (
     <section className={styles.partnersSection}>
-      <h2>OUR WORK IN ACTION</h2>
-      <p className={styles.description}>
-        From immersive photo booths to branded retail activations, our team brings bold ideas to life.
-        Here's a glimpse into some of the experiences we've created with our client partners.
-      </p>
-
+      <h2>Our work in action</h2>
       <Carousel images={images} />
     </section>
   );

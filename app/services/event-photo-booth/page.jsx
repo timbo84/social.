@@ -12,7 +12,7 @@ export default function EventPhotoBooth() {
         <div className={styles.heroContent}>
           <h1 className={styles.title}>Event Photo Booth</h1>
           <p className={styles.subtitle}>
-            Capture the energy of your event with photo booth experiences that entertain guests, spark connection, and deliver unforgettable keepsakes.
+            Capture the energy of your event with photo booth experiences that entertain guests, spark connection, and deliver unforgettable memories.
           </p>
         </div>
       </div>
@@ -28,7 +28,7 @@ export default function EventPhotoBooth() {
             />
           </div>
           <div className={styles.textBlock}>
-            <h2>Fun That Sticks</h2>
+            <h2>Party Starter</h2>
             <p>
               Our photo booths are designed to be the highlight of your event. With themed props, instant prints, and digital sharing, guests walk away with memories they’ll revisit again and again.
             </p>
@@ -44,15 +44,15 @@ export default function EventPhotoBooth() {
         {/* Section 2 - Text Left */}
         <div className={`${styles.content} ${styles.reverse}`}>
           <div className={styles.textBlock}>
-            <h2>Custom Themes & Layouts</h2>
+            <h2>Curated Experience</h2>
             <p>
-              From elegant to quirky, we tailor your booth to match your event’s vibe. Choose your backdrop, photo style, and print layout—we’ll handle the rest.
+             Whether your event is elegant, eccentric, or businessy we tailor your booth to match the vibe. 
             </p>
             <p>
-              Want a guestbook station? Animated GIFs? Personalized messages? We’ve got you covered.
+              Want to set up a guestbook station next to the booth? We can give you suggestions. Choose your backdrop, photo style, and print layout- we'll handle the rest.
             </p>
-            <Link href="/booking" className={styles.cta}>
-              Let's Customize It
+            <Link href="/contact" className={styles.cta}>
+              Start Planning
             </Link>
           </div>
           <div className={styles.mediaBlock}>
@@ -81,9 +81,9 @@ export default function EventPhotoBooth() {
             <p>
               We make it easy for guests to post, tag, and celebrate—while you get the credit for throwing an unforgettable party.
             </p>
-            <Link href="/booking" className={styles.cta}>
+            {/* <Link href="/booking" className={styles.cta}>
               Start Planning
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
