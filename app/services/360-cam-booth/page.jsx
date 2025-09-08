@@ -10,9 +10,12 @@ export default function Cam360Booth() {
       <div className={styles.hero}>
         <div className={styles.heroBackground}></div>
         <div className={styles.heroContent}>
-          <h1 className={styles.title}>360 Cam Booth</h1>
+          <h1 className={styles.title}>The 360 Experience</h1>
           <p className={styles.subtitle}>
             Step into the spotlight with our immersive 360° video booth — a cinematic experience that captures your guests in stunning slow motion from every angle.
+          </p>
+          <p className={styles.subtitle1}>
+            Be advise: the space needed for this experience is approximately 15 x 15 feet.
           </p>
         </div>
       </div>
@@ -22,18 +25,18 @@ export default function Cam360Booth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/360cam1.jpeg"
+              src="/images/360cam4.jpg"
               alt="360 cam booth rotating platform"
               className={styles.image}
             />
           </div>
           <div className={styles.textBlock}>
-            <h2>Dynamic Video Moments</h2>
+            <h2>A fully immersive experience</h2>
             <p>
-              Our 360 Cam Booth features a rotating platform and high-definition camera rig that captures guests in full motion. The result? Share-worthy videos that feel like red carpet highlights.
+              Our 360 Photo Booth goes beyond traditional photography, it's an opportunity for you and your guests to really relive your event.
             </p>
             <p>
-              Perfect for weddings, brand activations, and parties where you want to wow your crowd and give them something unforgettable.
+             They will get instant share-worthy videos and GIFs from every angle for their socials, sharing your customizable branding and showing off your non-stop fun event.
             </p>
             <Link href="/booking" className={styles.cta}>
               Book the 360 Booth
@@ -44,20 +47,20 @@ export default function Cam360Booth() {
         {/* Section 2 - Text Left */}
         <div className={`${styles.content} ${styles.reverse}`}>
           <div className={styles.textBlock}>
-            <h2>Custom Overlays & Instant Sharing</h2>
+            <h2>Differentiate your Event</h2>
             <p>
-              Add your logo, event theme, or animated effects to each video. Guests can instantly share their clips via QR code, email, or social media — boosting your reach and their excitement.
+              This is not your typical photo booth it is ideal for high-energy events and will take yours to the next level! 
             </p>
             <p>
-              Whether you're going glam or playful, we tailor the experience to match your vibe.
+              Perfect for weddings, corporate events, parties, and brand activations. You will be adding a fun element to any party.
             </p>
-            <Link href="/booking" className={styles.cta}>
-              Customize Your Booth
+            <Link href="/contact" className={styles.cta}>
+              Questions, just ask?
             </Link>
           </div>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/360cam2.jpeg"
+              src="/images/360cam3.jpg"
               alt="Guests sharing 360 booth videos"
               className={styles.image}
             />
@@ -68,12 +71,12 @@ export default function Cam360Booth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/360cam3.jpeg"
+              src="/images/360cam2.jpg"
               alt="360 booth setup at event"
               className={styles.image}
             />
           </div>
-          <div className={styles.textBlock}>
+          {/* <div className={styles.textBlock}>
             <h2>Unforgettable Guest Experience</h2>
             <p>
               The 360 Cam Booth isn’t just a photo op — it’s a full-on experience. With music, lighting, and movement, guests feel like stars and leave with a keepsake they’ll replay again and again.
@@ -84,7 +87,10 @@ export default function Cam360Booth() {
             <Link href="/booking" className={styles.cta}>
               Make It Memorable
             </Link>
-          </div>
+          </div> */}
+        </div>
+        <div className={styles.priceTag}>
+          Pricing starts at <strong>$600</strong>
         </div>
       </section>
     </>

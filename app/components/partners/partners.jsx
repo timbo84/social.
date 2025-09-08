@@ -23,7 +23,7 @@ const images = [
 export default function CompanyGallery() {
   return (
     <section className={styles.partnersSection}>
-      <h2>Our work in action</h2>
+      <h2>Let's Party!</h2>
       <Carousel images={images} />
     </section>
   );

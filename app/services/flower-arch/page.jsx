@@ -12,8 +12,8 @@ export default function FlowerArch() {
         <div className={styles.heroContent}>
           <h1 className={styles.title}>Flower Arch</h1>
           <p className={styles.subtitle}>
-            Elevate your event with a handcrafted floral centerpiece that adds
-            elegance, charm, and unforgettable beauty.
+            The arch that stops the scroll-perfect for photos of the most
+            elegant events
           </p>
         </div>
       </div>
@@ -32,24 +32,21 @@ export default function FlowerArch() {
             />
           </div>
           <div className={styles.textBlock}>
-            <h2>Timeless Elegance</h2>
+            <h2>The statement piece</h2>
             <p>
-              Our flower arches are designed to be the visual highlight of your
-              event. Whether framing a ceremony, photo backdrop, or entrance,
-              they bring a sense of romance and sophistication.
+              Our flower arch is designed to be the visual highlight of your
+              event. With the arch being 8 feet tall, Every guest will pause, every photo will pop. This is your
+              event's statement piece.
             </p>
-            <p>
-              Each arch is crafted with care, using fresh or faux florals to
-              match your theme and color palette.
-            </p>
-            <Link href="/booking" className={styles.cta}>
-              Design Your Arch
+
+            <Link href="/contact" className={styles.cta}>
+              Questions About our Arch
             </Link>
           </div>
         </div>
 
         {/* Section 2 - Text Left */}
-        <div className={`${styles.content} ${styles.reverse}`}>
+        {/* <div className={`${styles.content} ${styles.reverse}`}>
           <div className={styles.textBlock}>
             <h2>Custom Floral Styling</h2>
             <p>
@@ -72,7 +69,7 @@ export default function FlowerArch() {
               className={styles.image}
             />
           </div>
-        </div>
+        </div> */}
 
         {/* Section 3 - Image Left */}
         <div className={styles.content}>
@@ -86,18 +83,22 @@ export default function FlowerArch() {
           <div className={styles.textBlock}>
             <h2>Picture-Perfect Moments</h2>
             <p>
-              A flower arch isn’t just décor—it’s a photo magnet. Guests
-              naturally gravitate toward it, creating stunning memories and
-              shareable content that lasts long after the event ends.
+              A flower arch isn't just decor - it's a photo magnet. Guests
+              naturally gravitate towards it.
             </p>
             <p>
-              Let your celebration bloom with a centerpiece that’s both graceful
-              and unforgettable.
+              Whether framing a ceremony, photo backdrop, or enterance, it
+              brings a bit of romance to weddings, engagement parties, and
+              styled shoots. It's made to photographI beautifully. The "lets
+              create magic button" is perfect.
             </p>
             <Link href="/booking" className={styles.cta}>
               Let’s Create Magic
             </Link>
           </div>
+        </div>
+        <div className={styles.priceTag}>
+          Pricing starts at <strong>$500</strong>
         </div>
       </section>
     </>

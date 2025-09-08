@@ -12,7 +12,9 @@ export default function EventPhotoBooth() {
         <div className={styles.heroContent}>
           <h1 className={styles.title}>Event Photo Booth</h1>
           <p className={styles.subtitle}>
-            Capture the energy of your event with photo booth experiences that entertain guests, spark connection, and deliver unforgettable memories.
+            Capture the energy of your event with photo booth experiences that
+            entertain guests, spark connection, and deliver unforgettable
+            memories.
           </p>
         </div>
       </div>
@@ -30,10 +32,12 @@ export default function EventPhotoBooth() {
           <div className={styles.textBlock}>
             <h2>Party Starter</h2>
             <p>
-              Our photo booths are designed to be the highlight of your event. With themed props, instant prints, and digital sharing, guests walk away with memories they’ll revisit again and again.
+              With instant prints and digital sharing, guests walk away with
+              memories they'll revisit again and again.
             </p>
             <p>
-              Perfect for weddings, birthdays, corporate parties, and community events—this service brings joy and interaction to any gathering.
+              Perfect for weddings, birthdays, corporate parties, and community
+              events—this service brings joy and interaction to any gathering.
             </p>
             <Link href="/booking" className={styles.cta}>
               Book Your Booth
@@ -46,10 +50,13 @@ export default function EventPhotoBooth() {
           <div className={styles.textBlock}>
             <h2>Curated Experience</h2>
             <p>
-             Whether your event is elegant, eccentric, or businessy we tailor your booth to match the vibe. 
+              Whether your event is elegant, eccentric, or businessy we tailor
+              your booth to match the vibe.
             </p>
             <p>
-              Want to set up a guestbook station next to the booth? We can give you suggestions. Choose your backdrop, photo style, and print layout- we'll handle the rest.
+              Want to set up a guestbook station next to the booth? We can give
+              you suggestions. Choose your backdrop, photo style, and print
+              layout- we'll handle the rest.
             </p>
             <Link href="/contact" className={styles.cta}>
               Start Planning
@@ -76,15 +83,21 @@ export default function EventPhotoBooth() {
           <div className={styles.textBlock}>
             <h2>Shareable Moments</h2>
             <p>
-              Every photo is a chance to relive the fun. With instant social sharing, branded galleries, and optional live slideshows, your event lives on long after the last dance.
+              Every photo is a chance to relive the fun. With instant social
+              sharing, branded galleries, and optional live slideshows, your
+              event lives on long after the last dance.
             </p>
             <p>
-              We make it easy for guests to post, tag, and celebrate—while you get the credit for throwing an unforgettable party.
+              We make it easy for guests to post, tag, and celebrate—while you
+              get the credit for throwing an unforgettable party.
             </p>
             {/* <Link href="/booking" className={styles.cta}>
               Start Planning
             </Link> */}
           </div>
+        </div>
+        <div className={styles.priceTag}>
+          Pricing starts at <strong>$600</strong>
         </div>
       </section>
     </>

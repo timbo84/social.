@@ -25,12 +25,12 @@ export default function Footer() {
 
         <nav className={styles.nav}>
           <ul>
-            <li>
+            {/* <li>
               <Link href="/about">About</Link>
             </li>
             <li>
               <Link href="/services">Services</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/gallery">Gallery</Link>
             </li>
@@ -42,7 +42,7 @@ export default function Footer() {
 
         <div className={styles.social}>
           <a
-            href="https://instagram.com/yourhandle"
+            href="https://www.instagram.com/social.event.rentals?igsh=NGJvdDhwMzA4djdh&utm_source=qr"
             aria-label="Instagram"
             target="_blank"
             rel="noopener noreferrer"
@@ -50,14 +50,17 @@ export default function Footer() {
             <FaInstagram className={styles.icon} />
           </a>
           <a
-            href="https://facebook.com/yourpage"
+            href="https://www.facebook.com/share/1BLWbgK7uA/?mibextid=wwXIfr"
             aria-label="Facebook"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaFacebookF className={styles.icon} />
           </a>
-          <a href="mailto: veronica@socialeventrentalsne.com" aria-label="Email">
+          <a
+            href="mailto: veronica@socialeventrentalsne.com"
+            aria-label="Email"
+          >
             <FaEnvelope className={styles.icon} />
           </a>
         </div>
@@ -67,7 +70,18 @@ export default function Footer() {
         <p>
           &copy; {new Date().getFullYear()} Social Event Rentals. All rights
           reserved. Designed and developed by{" "}
-          <span className={styles.creator}>Timothy Roberts</span>.
+          <a href="mailto:timber110406@gmail.com" className={styles.creator}>
+            Timothy Roberts
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://jytsoftware.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.creator}
+          >
+            Portfolio
+          </a>
         </p>
       </div>
     </footer>

@@ -13,15 +13,14 @@ export default function SnackCart() {
         <div className={styles.heroContent}>
           <h1 className={styles.title}>Snack Cart</h1>
           <p className={styles.subtitle}>
-            Add flavor and fun to your event with a snack cart that’s as
-            delightful as it is delicious.
+            Add flavor and fun to your event with a snack cart.
           </p>
           <div className={styles.social}>
             <p className={styles.subtitle}>
             Follow us on
           </p>
             <a
-              href="https://instagram.com/yourhandle"
+              href="https://www.instagram.com/social.snack.bar?igsh=MXFwNXN2emtwZ3c5&utm_source=qr"
               aria-label="Instagram"
               target="_blank"
               rel="noopener noreferrer"
@@ -79,7 +78,7 @@ export default function SnackCart() {
           </div>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/snack2.jpg"
+              src="/images/snack12.jpg"
               alt="Themed snack cart with decorations"
               className={styles.image}
             />
@@ -90,7 +89,7 @@ export default function SnackCart() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/snack3.jpg"
+              src="/images/snack11.jpg"
               alt="Guests enjoying snack cart treats"
               className={styles.image}
             />
@@ -103,13 +102,15 @@ export default function SnackCart() {
               ice and keep the vibe light and festive.
             </p>
             <p>
-              Whether it’s a midday pick-me-up or a late-night treat station,
-              our snack cart delivers joy in every bite.
+              Whether it's a midday pick-me-up or a late-night treat station, the sky is the limit so bring your ideas.
             </p>
             <Link href="/booking" className={styles.cta}>
               Let’s Get Snacking
             </Link>
           </div>
+        </div>
+        <div className={styles.priceTag}>
+          Pricing starts at <strong>$700</strong> & varies depending on product & size of party.
         </div>
       </section>
     </>

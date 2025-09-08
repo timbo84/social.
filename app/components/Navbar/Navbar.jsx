@@ -45,9 +45,9 @@ export default function Navbar() {
             <Link href="/gallery" className={styles.link}>
               Gallery
             </Link>
-            <Link href="#services" className={styles.link}>
+            {/* <Link href="#services" className={styles.link}>
               Services
-            </Link>
+            </Link> */}
             <Link href="/contact" className={styles.link}>
               Contact
             </Link>
@@ -88,9 +88,9 @@ export default function Navbar() {
             <Link href="/gallery" className={styles.link} onClick={closeMenu}>
               Gallery
             </Link>
-            <Link href="#services" className={styles.link} onClick={closeMenu}>
+            {/* <Link href="#services" className={styles.link} onClick={closeMenu}>
               Services
-            </Link>
+            </Link> */}
             <Link href="/contact" className={styles.link} onClick={closeMenu}>
               Contact
             </Link>
