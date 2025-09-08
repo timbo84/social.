@@ -1,7 +1,7 @@
 // components/Footer.js
 import Link from "next/link";
-import styles from "./footer.module.css"; // Optional: use CSS Modules
-import { FaInstagram, FaFacebookF, FaEnvelope } from "react-icons/fa";
+import styles from "./footer.module.css";
+import { FaInstagram, FaFacebookF, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -25,12 +25,6 @@ export default function Footer() {
 
         <nav className={styles.nav}>
           <ul>
-            {/* <li>
-              <Link href="/about">About</Link>
-            </li>
-            <li>
-              <Link href="/services">Services</Link>
-            </li> */}
             <li>
               <Link href="/gallery">Gallery</Link>
             </li>
@@ -40,6 +34,7 @@ export default function Footer() {
           </ul>
         </nav>
 
+        {/* Social + Contact */}
         <div className={styles.social}>
           <a
             href="https://www.instagram.com/social.event.rentals?igsh=NGJvdDhwMzA4djdh&utm_source=qr"
@@ -57,11 +52,11 @@ export default function Footer() {
           >
             <FaFacebookF className={styles.icon} />
           </a>
-          <a
-            href="mailto: veronica@socialeventrentalsne.com"
-            aria-label="Email"
-          >
+          <a href="mailto:veronica@socialeventrentalsne.com" aria-label="Email">
             <FaEnvelope className={styles.icon} />
+          </a>
+          <a href="tel:+14026575175" aria-label="Phone">
+            <FaPhoneAlt className={styles.icon} />
           </a>
         </div>
       </div>

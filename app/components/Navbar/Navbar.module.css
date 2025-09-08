@@ -119,6 +119,15 @@
   transition: background-color 0.3s ease;
 }
 
+.social a {
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: black;
+}
+.social a:hover {
+  color: #333333;
+}
+
 /* Responsive styles */
 @media (min-width: 768px) {
   .desktopNav {
