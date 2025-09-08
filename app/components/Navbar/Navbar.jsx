@@ -51,10 +51,13 @@ export default function Navbar() {
             <Link href="/contact" className={styles.link}>
               Contact
             </Link>
-            <Link href="tel:+14026575175" className={styles.link}>📞 (402) 657-5175</Link>
-            <Link href="mailto:veronica@socialeventrentalsne.com" className={styles.link}>
-              ✉️ Email Us
+            <Link href="/FAQ" className={styles.link} onClick={closeMenu}>
+              FAQ
             </Link>
+            {/* <Link href="tel:+14026575175" className={styles.link}>📞 (402) 657-5175</Link>
+            <Link href="mailto:veronica@socialeventrentalsne.com" className={styles.link}> */}
+              {/* ✉️ Email Us
+            </Link> */}
           </div>
 
           {/* <Link
@@ -98,10 +101,13 @@ export default function Navbar() {
             <Link href="/contact" className={styles.link} onClick={closeMenu}>
               Contact
             </Link>
-            <Link href="tel:+14026575175" className={styles.link}>📞 (402) 657-5175</Link>
-            <Link href="mailto:veronica@socialeventrentalsne.com" className={styles.link}>
-              ✉️ Email Us
+            <Link href="/FAQ" className={styles.link} onClick={closeMenu}>
+              FAQ
             </Link>
+            {/* <Link href="tel:+14026575175" className={styles.link}>📞 (402) 657-5175</Link>
+            <Link href="mailto:veronica@socialeventrentalsne.com" className={styles.link}> */}
+              {/* ✉️ Email Us
+            </Link> */}
             {/* <Link
               href="https://buy.stripe.com/test_6oUeV65WP1WTg7vg0R4sE00"
               className={styles.mobileCTA}

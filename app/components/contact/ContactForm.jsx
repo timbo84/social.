@@ -17,7 +17,9 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const subject = encodeURIComponent(`${formData.name} has sent you a message via the website`);
+    const subject = encodeURIComponent(
+      `${formData.name} has sent you a message via the website`
+    );
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     );
@@ -31,11 +33,10 @@ export default function ContactForm() {
       <div className={styles.container}>
         <h2 className={styles.title}>Contact Us</h2>
         <p className={styles.subtitle}>
-          Have questions or want to book with us? Fill out the form below.
+          Have questions or want to book with us? Fill out the form below or
+          call us.
         </p>
-        <p className={styles.subtitle}>
-          We can't wait to hear from you!
-        </p>
+        <p className={styles.subtitle}>We can't wait to hear from you!</p>
 
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.formGroup}>
@@ -80,6 +81,9 @@ export default function ContactForm() {
           <button type="submit" className={styles.button}>
             Send Message
           </button>
+          <a href="tel:+14026575175" className={styles.phone}>
+            📞 (402) 657-5175
+          </a>
         </form>
       </div>
     </section>

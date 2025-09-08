@@ -90,7 +90,7 @@ export default function Cam360Booth() {
           </div> */}
         </div>
         <div className={styles.priceTag}>
-          Pricing starts at <strong>$600</strong>
+          Pricing starts at <strong>$900</strong>
         </div>
       </section>
     </>
