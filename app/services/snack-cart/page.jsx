@@ -75,7 +75,7 @@ export default function SnackCart() {
           </div>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/snack12.jpg"
+              src="/images/snack2nd.png"
               alt="Themed snack cart with decorations"
               className={styles.image}
             />
