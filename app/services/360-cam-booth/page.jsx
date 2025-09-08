@@ -15,7 +15,7 @@ export default function Cam360Booth() {
            
           </p>
           <p className={styles.subtitle}>
-            Be advise: the space needed for this experience is approximately 15 x 15 feet.
+            Be advised: the space needed for this experience is approximately 15 x 15 feet.
           </p>
         </div>
       </div>
