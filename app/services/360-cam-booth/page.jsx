@@ -12,9 +12,9 @@ export default function Cam360Booth() {
         <div className={styles.heroContent}>
           <h1 className={styles.title}>The 360 Experience</h1>
           <p className={styles.subtitle}>
-            Step into the spotlight with our immersive 360° video booth — a cinematic experience that captures your guests in stunning slow motion from every angle.
+           
           </p>
-          <p className={styles.subtitle1}>
+          <p className={styles.subtitle}>
             Be advise: the space needed for this experience is approximately 15 x 15 feet.
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function Cam360Booth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/360cam4.jpg"
+              src="/images/360cam2.jpg"
               alt="360 cam booth rotating platform"
               className={styles.image}
             />
@@ -71,7 +71,7 @@ export default function Cam360Booth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/360cam2.jpg"
+              src="/images/360cam4.jpg"
               alt="360 booth setup at event"
               className={styles.image}
             />

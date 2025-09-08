@@ -16,7 +16,7 @@ const services = [
     description:
       "Give your guests the spotlight with our immersive 360 cam booth. Capture dynamic, slow-motion videos from every angle.",
     link: "/services/360-cam-booth",
-    image: "/images/360cam4.jpg", // Update this path to match your actual image
+    image: "/images/360cam6.png", // Update this path to match your actual image
   },
 
   // {

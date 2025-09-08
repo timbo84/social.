@@ -16,9 +16,7 @@ export default function SnackCart() {
             Add flavor and fun to your event with a snack cart.
           </p>
           <div className={styles.social}>
-            <p className={styles.subtitle}>
-            Follow us on
-          </p>
+            <p className={styles.subtitle}>Follow us on</p>
             <a
               href="https://www.instagram.com/social.snack.bar?igsh=MXFwNXN2emtwZ3c5&utm_source=qr"
               aria-label="Instagram"
@@ -63,14 +61,13 @@ export default function SnackCart() {
           <div className={styles.textBlock}>
             <h2>Styled to Match Your Theme</h2>
             <p>
-              Whether you're going rustic, retro, or ultra-modern, our cart can
-              be styled to complement your event’s aesthetic. We’ll work with
-              you to choose colors, signage, and display elements that feel
-              cohesive and fun.
+              It's not just about snacks- it's about bringing a unique element
+              to your event and we think it should match your theme.
             </p>
             <p>
-              It’s not just about snacks—it’s about creating a visual moment
-              that guests will remember.
+              We will work with you to make the cart cohesive and fun with
+              options to add signage, display elements, color, and even lighting
+              to compliment your event's aesthetic.
             </p>
             <Link href="/booking" className={styles.cta}>
               Customize Your Look
@@ -102,7 +99,8 @@ export default function SnackCart() {
               ice and keep the vibe light and festive.
             </p>
             <p>
-              Whether it's a midday pick-me-up or a late-night treat station, the sky is the limit so bring your ideas.
+              Whether it's a midday pick-me-up or a late-night treat station,
+              the sky is the limit so bring your ideas.
             </p>
             <Link href="/booking" className={styles.cta}>
               Let’s Get Snacking
@@ -110,7 +108,8 @@ export default function SnackCart() {
           </div>
         </div>
         <div className={styles.priceTag}>
-          Pricing starts at <strong>$700</strong> & varies depending on product & size of party.
+          Pricing starts at <strong>$700</strong> and varies depending on product
+          & size of party.
         </div>
       </section>
     </>

@@ -89,7 +89,7 @@ export default function FlowerArch() {
             <p>
               Whether framing a ceremony, photo backdrop, or enterance, it
               brings a bit of romance to weddings, engagement parties, and
-              styled shoots. It's made to photographI beautifully. The "lets
+              styled shoots. It's made to photograph beautifully. The "lets
               create magic button" is perfect.
             </p>
             <Link href="/booking" className={styles.cta}>
