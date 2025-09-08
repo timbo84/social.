@@ -63,32 +63,96 @@ export default function FAQ() {
   };
 
   return (
-    <section className={styles.faqSection}>
-      <h1 className={styles.heading}>Frequently Asked Questions</h1>
-      <div className={styles.faqContainer}>
-        {faqs.map((faq, index) => (
-          <div key={index} className={styles.faqItem}>
-            <button
-              className={`${styles.question} ${
-                activeIndex === index ? styles.active : ""
-              }`}
-              onClick={() => toggleFAQ(index)}
-            >
-              {faq.question}
-              <span className={styles.icon}>
-                {activeIndex === index ? "−" : "+"}
-              </span>
-            </button>
-            <div
-              className={`${styles.answer} ${
-                activeIndex === index ? styles.show : ""
-              }`}
-            >
-              <p>{faq.answer}</p>
-            </div>
-          </div>
-        ))}
+    <section
+  style={{
+    maxWidth: "900px",
+    margin: "6rem auto 4rem auto",
+    padding: "2rem 1rem",
+    fontFamily: "customFont, sans-serif"
+  }}
+>
+  <h1
+    style={{
+      textAlign: "center",
+      fontSize: "2.2rem",
+      fontWeight: "700",
+      marginBottom: "2rem",
+      color: "black"
+    }}
+  >
+    Frequently Asked Questions
+  </h1>
+
+  <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+    {faqs.map((faq, index) => (
+      <div
+        key={index}
+        style={{
+          border: "1px solid #ddd",
+          borderRadius: "8px",
+          overflow: "hidden",
+          boxShadow:
+            activeIndex === index ? "0 4px 12px rgba(0, 0, 0, 0.08)" : "none",
+          transition: "box-shadow 0.3s ease"
+        }}
+      >
+        <button
+          onClick={() => toggleFAQ(index)}
+          style={{
+            width: "100%",
+            textAlign: "left",
+            padding: "1rem 1.25rem",
+            fontSize: "1.1rem",
+            fontWeight: "600",
+            background: activeIndex === index ? "#eee" : "#f9f9f9",
+            border: "none",
+            outline: "none",
+            cursor: "pointer",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            transition: "background 0.3s ease",
+            color: "black",
+            fontFamily: "customFont, sans-serif"
+          }}
+        >
+          {faq.question}
+          <span
+            style={{
+              fontSize: "1.4rem",
+              fontWeight: "bold",
+              color: "black",
+              fontFamily: "customFont, sans-serif"
+            }}
+          >
+            {activeIndex === index ? "−" : "+"}
+          </span>
+        </button>
+
+        <div
+          style={{
+            maxHeight: activeIndex === index ? "500px" : "0",
+            overflow: "hidden",
+            transition: "max-height 0.35s ease, padding 0.35s ease",
+            padding: activeIndex === index ? "1rem 1.25rem" : "0 1.25rem",
+            background: "white"
+          }}
+        >
+          <p
+            style={{
+              margin: "1rem 0",
+              lineHeight: "1.6",
+              fontSize: "1rem",
+              color: "black",
+              fontFamily: "customFont, sans-serif"
+            }}
+          >
+            {faq.answer}
+          </p>
+        </div>
       </div>
-    </section>
+    ))}
+  </div>
+</section>
   );
 }
