@@ -108,8 +108,9 @@ export default function SnackCart() {
           </div>
         </div>
         <div className={styles.priceTag}>
-          Pricing starts at <strong>$700</strong> varies depending on product
-          and size of party.
+          Pricing starts at <strong>$700</strong>.
+          <br />
+          varies depending on product and size of party.
         </div>
       </section>
     </>
