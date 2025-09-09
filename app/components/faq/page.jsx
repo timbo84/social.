@@ -34,7 +34,7 @@ const faqs = [
       "We occasionally offer discounts and promotions. Follow us on social media to stay updated.",
   },
   {
-    question: "My Venue requires proof of insurance. Do you provide that?",
+    question: "My venue requires proof of insurance. Do you provide that?",
     answer:
       "Yes, we are fully insured and can provide evidence of coverage upon request.",
   },
