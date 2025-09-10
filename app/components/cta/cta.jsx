@@ -13,6 +13,9 @@ export default function CTASection() {
           </p>
           <div className={styles.buttons}>
             <Link href="/contact" className={styles.primary}>
+              GET IN TOUCH
+            </Link>
+            <Link href="/booking" className={styles.secondary}>
               CHECK AVAILABILITY
             </Link>
           </div>
