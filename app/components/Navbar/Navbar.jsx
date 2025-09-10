@@ -117,7 +117,7 @@ export default function Navbar() {
             </Link> */}
 
             <Link
-              href="/contact"
+              href="/booking"
               className={styles.mobileCTA}
               onClick={closeMenu}
             >
