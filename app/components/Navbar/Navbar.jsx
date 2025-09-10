@@ -67,7 +67,7 @@ export default function Navbar() {
             Make a Payment
           </Link> */}
 
-          <Link href="/contact" className={styles.cta}>
+          <Link href="/booking" className={styles.cta}>
             Check Availability
           </Link>
 
