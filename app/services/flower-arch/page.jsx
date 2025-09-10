@@ -92,7 +92,7 @@ export default function FlowerArch() {
               styled shoots. It's made to photograph beautifully. The "lets
               create magic button" is perfect.
             </p>
-            <Link href="/booking" className={styles.cta}>
+            <Link href="/contact" className={styles.cta}>
               Let’s Create Magic
             </Link>
           </div>

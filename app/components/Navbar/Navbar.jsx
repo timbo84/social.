@@ -67,8 +67,8 @@ export default function Navbar() {
             Make a Payment
           </Link> */}
 
-          <Link href="/booking" className={styles.cta}>
-            Book Now
+          <Link href="/contact" className={styles.cta}>
+            Check Availability
           </Link>
 
           {/* Hamburger */}
@@ -117,11 +117,11 @@ export default function Navbar() {
             </Link> */}
 
             <Link
-              href="/booking"
+              href="/contact"
               className={styles.mobileCTA}
               onClick={closeMenu}
             >
-              Book Now
+              Check Availability
             </Link>
           </div>
         )}

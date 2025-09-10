@@ -35,8 +35,8 @@ export default function BusinessBranding() {
             <p>
               Whether you're hosting a launch, networking event, or pop-up activation, our setups are designed to spark engagement and reinforce your identity.
             </p>
-            <Link href="/booking" className={styles.cta}>
-              Reserve Your Booth
+            <Link href="/contact" className={styles.cta}>
+              Check Availability
             </Link>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function BusinessBranding() {
             <p>
               Whether you're going bold, minimal, or playful, we’ll help you translate your brand into a visual experience that connects.
             </p>
-            <Link href="/booking" className={styles.cta}>
+            <Link href="/contact" className={styles.cta}>
               Let's Collaborate
             </Link>
           </div>
@@ -81,7 +81,7 @@ export default function BusinessBranding() {
             <p>
               Ideal for trade shows, retail activations, and corporate events, this service turns engagement into brand loyalty.
             </p>
-            <Link href="/booking" className={styles.cta}>
+            <Link href="/contact" className={styles.cta}>
               Start Planning
             </Link>
           </div>

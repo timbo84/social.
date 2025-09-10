@@ -35,8 +35,8 @@ export default function CorporatePhotoBooth() {
               while bringing your event to life. We promise your event will be
               more fun with a photo booth!
             </p>
-            <Link href="/booking" className={styles.cta}>
-              Book Your Booth
+            <Link href="/contact" className={styles.cta}>
+              Check Availability
             </Link>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function CorporatePhotoBooth() {
               It's a great way to boost internal morale and get good content for
               your social media.
             </p>
-            <Link href="/booking" className={styles.cta}>
+            <Link href="/contact" className={styles.cta}>
               Customize Your Experience
             </Link>
           </div>
@@ -87,7 +87,7 @@ export default function CorporatePhotoBooth() {
               Whether it's a casual celebration or a formal gala, our booth will
               be a hit.
             </p>
-            <Link href="/booking" className={styles.cta}>
+            <Link href="/contact" className={styles.cta}>
               Let’s Elevate Your Event
             </Link>
           </div>

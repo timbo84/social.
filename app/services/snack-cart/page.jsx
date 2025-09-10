@@ -50,8 +50,8 @@ export default function SnackCart() {
               Perfect for weddings, birthdays, and corporate mixers, it’s a
               tasty way to keep the energy high and the smiles wide.
             </p>
-            <Link href="/booking" className={styles.cta}>
-              Reserve Your Cart
+            <Link href="/contact" className={styles.cta}>
+              Check Availability
             </Link>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function SnackCart() {
               options to add signage, display elements, color, and even lighting
               to compliment your event's aesthetic.
             </p>
-            <Link href="/booking" className={styles.cta}>
+            <Link href="/contact" className={styles.cta}>
               Customize Your Look
             </Link>
           </div>
@@ -102,7 +102,7 @@ export default function SnackCart() {
               Whether it's a midday pick-me-up or a late-night treat station,
               the sky is the limit so bring your ideas.
             </p>
-            <Link href="/booking" className={styles.cta}>
+            <Link href="/contact" className={styles.cta}>
               Let’s Get Snacking
             </Link>
           </div>

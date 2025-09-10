@@ -38,8 +38,8 @@ export default function Cam360Booth() {
             <p>
              They will get instant share-worthy videos and GIFs from every angle for their socials, sharing your customizable branding and showing off your non-stop fun event.
             </p>
-            <Link href="/booking" className={styles.cta}>
-              Book the 360 Booth
+            <Link href="/contact" className={styles.cta}>
+              Check Availability
             </Link>
           </div>
         </div>

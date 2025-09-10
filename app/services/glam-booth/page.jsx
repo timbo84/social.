@@ -36,8 +36,8 @@ export default function GlamBooth() {
               Perfect for weddings, galas, and upscale parties, it’s a sleek way
               to elevate your event and give guests a moment to shine.
             </p>
-            <Link href="/booking" className={styles.cta}>
-              Book the Glam Booth
+            <Link href="/contact" className={styles.cta}>
+              Check Availability
             </Link>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function GlamBooth() {
               Whether it’s a solo shot or a group pose, the glam booth delivers
               consistent, high-quality results every time.
             </p>
-            <Link href="/booking" className={styles.cta}>
+            <Link href="/contact" className={styles.cta}>
               See the Glow
             </Link>
           </div>
@@ -85,8 +85,8 @@ export default function GlamBooth() {
               blend of luxury and convenience.
             </p>
 
-            <Link href="/booking" className={styles.cta}>
-              Book the Glam Booth
+            <Link href="/contact" className={styles.cta}>
+              Check Availability
             </Link>
           </div>
         </div>

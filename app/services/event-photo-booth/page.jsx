@@ -39,8 +39,8 @@ export default function EventPhotoBooth() {
               Perfect for weddings, birthdays, corporate parties, and community
               events—this service brings joy and interaction to any gathering.
             </p>
-            <Link href="/booking" className={styles.cta}>
-              Book Your Booth
+            <Link href="/contact" className={styles.cta}>
+              Check Availability
             </Link>
           </div>
         </div>
