@@ -36,9 +36,9 @@ const mediaItems = [
     { type: "image", src: "/images/snack9.jpg" },
     { type: "image", src: "/images/snack11.jpg" },
     { type: "image", src: "/images/snackMain.jpg" },
-    { type: "video", src: "/videos/video1.mp4" },
-    { type: "video", src: "/videos/video2.mp4" },
-    { type: "video", src: "/videos/hero.mp4" },
+    // { type: "video", src: "/videos/video1.mp4" },
+    // { type: "video", src: "/videos/video2.mp4" },
+    // { type: "video", src: "/videos/hero.mp4" },
 ];
 
 export default function Gallery() {
@@ -68,6 +68,7 @@ export default function Gallery() {
               key={i}
               src={item.src}
               alt={`gallery-${i}`}
+              loading="lazy"
               className={styles.item}
               onClick={() => setActiveIndex(i)}
             />
