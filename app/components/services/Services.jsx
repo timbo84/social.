@@ -45,7 +45,7 @@ const services = [
     description:
       "Add elegance and beauty with our handcrafted flower arches. Ideal for weddings, photo ops, or any event needing a statement centerpiece.",
     link: "/services/flower-arch",
-    image: "/images/flower1.jpg",
+    image: "/images/flowerArch.jpg",
   },
   {
     title: "Snack Cart",

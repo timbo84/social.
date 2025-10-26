@@ -24,7 +24,7 @@ export default function FlowerArch() {
           <div className={styles.mediaBlock}>
             <video
               className={styles.image}
-              src="/videos/flower-vid.mp4"
+              src="/videos/flowerArch.mp4"
               autoPlay
               loop
               muted
