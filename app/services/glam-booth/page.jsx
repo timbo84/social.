@@ -61,7 +61,7 @@ export default function GlamBooth() {
           </div>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/bowTie.jpg"
+              src="/images/bowTie.jpeg"
               alt="Guests posing in glam booth"
               className={styles.image}
             />
