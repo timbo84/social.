@@ -4,10 +4,6 @@ import { useState, useEffect } from "react";
 
 const mediaItems = [
   { type: "image", src: "/images/c1.jpeg" },
-    { type: "image", src: "/images/360cam1.jpg" },
-    { type: "image", src: "/images/360cam2.jpg" }, 
-    { type: "image", src: "/images/360cam3.jpg" },
-    { type: "image", src: "/images/360cam4.jpg" },
     { type: "image", src: "/images/branding1.jpeg" },
     { type: "image", src: "/images/branding2.jpeg" },
     { type: "image", src: "/images/branding3.jpeg" },
@@ -25,9 +21,11 @@ const mediaItems = [
     { type: "image", src: "/images/event4.jpeg" },
     { type: "image", src: "/images/flowerArch.jpg" },
     { type: "image", src: "/images/flower2.jpg" },
+    { type: "image", src: "/images/c8.jpeg" },
+    { type: "image", src: "/images/c12.jpg" },
     { type: "image", src: "/images/glam1.jpeg" },
     { type: "image", src: "/images/glam2.jpeg" },
-    { type: "image", src: "/images/bowTie.jpg" },
+    { type: "image", src: "/images/bowTie.jpeg" },
     { type: "image", src: "/images/glam4.jpeg" },
     { type: "image", src: "/images/glam5.jpeg" },
     { type: "image", src: "/images/glam6.jpg" },

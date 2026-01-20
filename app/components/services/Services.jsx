@@ -11,13 +11,13 @@ const services = [
     link: "/services/event-photo-booth",
     image: "/images/brand1.jpeg",
   },
-  {
-    title: "The 360 Experience",
-    description:
-      "Give your guests the spotlight with our immersive 360 cam booth. Capture dynamic, slow-motion videos from every angle.",
-    link: "/services/360-cam-booth",
-    image: "/images/360cam6.png", // Update this path to match your actual image
-  },
+  // {
+  //   title: "The 360 Experience",
+  //   description:
+  //     "Give your guests the spotlight with our immersive 360 cam booth. Capture dynamic, slow-motion videos from every angle.",
+  //   link: "/services/360-cam-booth",
+  //   image: "/images/360cam6.png", // Update this path to match your actual image
+  // },
 
   // {
   //   title: "Business Branding",
@@ -45,7 +45,7 @@ const services = [
     description:
       "Add elegance and beauty with our handcrafted flower arches. Ideal for weddings, photo ops, or any event needing a statement centerpiece.",
     link: "/services/flower-arch",
-    image: "/images/flowerArch.jpg",
+    image: "/images/flower3.jpg",
   },
   {
     title: "Snack Cart",
