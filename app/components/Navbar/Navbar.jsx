@@ -45,30 +45,14 @@ export default function Navbar() {
             <Link href="/gallery" className={styles.link}>
               Gallery
             </Link>
-            {/* <Link href="#services" className={styles.link}>
-              Services
-            </Link> */}
-            <Link href="/contact" className={styles.link}>
-              Contact
-            </Link>
+
             <Link href="/FAQ" className={styles.link} onClick={closeMenu}>
               FAQ
             </Link>
-            {/* <Link href="tel:+14026575175" className={styles.link}>📞 (402) 657-5175</Link>
-            <Link href="mailto:veronica@socialeventrentalsne.com" className={styles.link}> */}
-              {/* ✉️ Email Us
-            </Link> */}
           </div>
 
-          {/* <Link
-            href="https://buy.stripe.com/test_6oUeV65WP1WTg7vg0R4sE00"
-            className={styles.cta}
-          >
-            Make a Payment
-          </Link> */}
-
-          <Link href="/booking" className={styles.cta}>
-            Check Availability
+          <Link href="/contact" className={styles.cta}>
+            Contact Us
           </Link>
 
           {/* Hamburger */}
@@ -106,7 +90,7 @@ export default function Navbar() {
             </Link>
             {/* <Link href="tel:+14026575175" className={styles.link}>📞 (402) 657-5175</Link>
             <Link href="mailto:veronica@socialeventrentalsne.com" className={styles.link}> */}
-              {/* ✉️ Email Us
+            {/* ✉️ Email Us
             </Link> */}
             {/* <Link
               href="https://buy.stripe.com/test_6oUeV65WP1WTg7vg0R4sE00"

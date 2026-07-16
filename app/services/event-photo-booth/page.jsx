@@ -97,7 +97,7 @@ export default function EventPhotoBooth() {
           </div>
         </div>
         <div className={styles.priceTag}>
-          Pricing starts at <strong>$600</strong>
+          Pricing starts at <strong>$500</strong>
         </div>
       </section>
     </>

@@ -3,13 +3,12 @@ import styles from './partners.module.css';
 import Carousel from '../carousel/carousel';
 
 const images = [
-  { alt: 'c1', src: '/images/c1.jpeg' },
+  
   { alt: 'c2', src: '/images/c2.jpeg' },
-  { alt: 'c3', src: '/images/c3.jpeg' },
-  { alt: 'oneGirl', src: '/images/oneGirl.jpg' },
+  
+  
   { alt: 'c5', src: '/images/c5.jpeg' },
-  { alt: 'c6', src: '/images/c6.jpeg' },
-  { alt: 'c7', src: '/images/c7.jpeg' },
+  
   { alt: 'c8', src: '/images/c8.jpeg' },
   { alt: 'c9', src: '/images/c9.jpeg' },
   { alt: 'c10', src: '/images/c10.jpeg' },
@@ -18,6 +17,11 @@ const images = [
   { alt: 'c13', src: '/images/c13.jpg' },
   { alt: 'fourGirls', src: '/images/fourGirls.jpg' },
   { alt: 'c15', src: '/images/c15.jpeg' },
+  { alt: 'c16', src: '/images/c16.jpeg' },
+  { alt: 'c17', src: '/images/c17.jpeg' },
+  { alt: 'c18', src: '/images/c18.jpeg' },
+  { alt: 'c19', src: '/images/c19.jpeg' },
+  { alt: 'c20', src: '/images/c20.jpeg' },
 ];
 
 export default function CompanyGallery() {

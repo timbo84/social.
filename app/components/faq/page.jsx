@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     question: "What form of payment do you accept?",
-    answer: "We accept Credit Cards, Cash, Venmo, and Paypal.",
+    answer: "We accept Credit Cards, CashApp, Venmo, ApplePay and Paypal.",
   },
   {
     question: "Is there a deposit required to secure my rental date?",
@@ -41,17 +41,12 @@ const faqs = [
   {
     question: "How long does it take to set up the photo booth?",
     answer:
-      "We typically require about 30 minutes to an hour to set up the photo booth, depending on the location and event space.",
+      "We typically require about an hour to set up the photo booth, depending on the location and event space.",
   },
   {
     question: "How much space do we need for the photo booth?",
     answer:
       "Our photo booth is designed to fit in small spaces, but we typically require a 10 ft x 10ft area. We would love to be close to a power outlet (we can communicate with you about your specific space) and ground to be level.",
-  },
-  {
-    question: "How much space do we need for the 360 booth?",
-    answer:
-      "We require approximately a 15 ft x 15 ft area for the 360 booth to allow for safe operation and the best guest experience.",
   },
 ];
 

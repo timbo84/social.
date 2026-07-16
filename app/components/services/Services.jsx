@@ -27,18 +27,11 @@ const services = [
   //   image: "/images/brand5.jpeg"
   // },
   {
-    title: "Corporate Photo Booth",
+    title: "Backdrop Rentals",
     description:
-      "Professional yet fun. Engage your employees or impress your clients with a sleek booth experience at your next corporate event.",
-    link: "/services/corporate-photo-booth",
-    image: "/images/corporate1.jpg",
-  },
-  {
-    title: "Glam Booth",
-    description:
-      "Hollywood vibes with our glam booth. Black-and-white photos, flawless lighting, and instant prints that make every guest feel like a star.",
-    link: "/services/glam-booth",
-    image: "/images/glam1.jpeg",
+      "Set the perfect scene for every moment. Choose from our stunning backdrop collection to make every photo a keepsake worth remembering.",
+    link: "/services/backdrop-booth",
+    image: "/images/backdrop1.jpeg",
   },
   {
     title: "Flower Arch",
@@ -47,13 +40,7 @@ const services = [
     link: "/services/flower-arch",
     image: "/images/flower3.jpg",
   },
-  {
-    title: "Snack Cart",
-    description:
-      "Delight your guests with a variety of snacks and treats served in style. Our snack cart adds a fun and interactive touch to your celebration.",
-    link: "/services/snack-cart",
-    image: "/images/snackMain2.jpg",
-  },
+  
 ];
 
 export default function Services() {

@@ -22,7 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/corporate4.jpeg"); /* Replace with your image path */
+  background-image: url("/images/backdrop1.jpeg"); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,6 +139,47 @@
   color: #333;
 }
 
+/* Backdrop Grid */
+.backdropSection {
+  margin-top: 4rem;
+}
+
+.backdropHeading {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.backdropGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.backdropCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.backdropCardTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+.backdropCardImage {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .content {
@@ -154,4 +195,13 @@
     order: 2;
   }
 
+  .backdropGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .backdropGrid {
+    grid-template-columns: 1fr;
+  }
 }

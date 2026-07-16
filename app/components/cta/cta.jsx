@@ -7,7 +7,7 @@ export default function CTASection() {
     <section className={styles.cta}>
       <div className={styles.overlay}>
         <div className={styles.content}>
-          <h1 className={styles.heading}>Photo Booths make it a real party</h1>
+          <h1 className={styles.heading}>Photo Booths make it <br /> a real party</h1>
           <p className={styles.description}>
             Contact us to customize your experience.
           </p>
@@ -15,9 +15,7 @@ export default function CTASection() {
             <Link href="/contact" className={styles.primary}>
               GET IN TOUCH
             </Link>
-            <Link href="/booking" className={styles.secondary}>
-              CHECK AVAILABILITY
-            </Link>
+            
           </div>
         </div>
       </div>
