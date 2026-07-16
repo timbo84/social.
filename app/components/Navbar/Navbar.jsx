@@ -79,12 +79,7 @@ export default function Navbar() {
             <Link href="/gallery" className={styles.link} onClick={closeMenu}>
               Gallery
             </Link>
-            {/* <Link href="#services" className={styles.link} onClick={closeMenu}>
-              Services
-            </Link> */}
-            <Link href="/contact" className={styles.link} onClick={closeMenu}>
-              Contact
-            </Link>
+            
             <Link href="/FAQ" className={styles.link} onClick={closeMenu}>
               FAQ
             </Link>
@@ -101,11 +96,11 @@ export default function Navbar() {
             </Link> */}
 
             <Link
-              href="/booking"
+              href="/contact"
               className={styles.mobileCTA}
               onClick={closeMenu}
             >
-              Check Availability
+              Contact Us
             </Link>
           </div>
         )}
