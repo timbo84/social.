@@ -9,7 +9,8 @@ const services = [
     description:
       "Capture memories with customizable backdrops for any occasion. Perfect for weddings, birthdays, and special events where your guests can strike a pose.",
     link: "/services/event-photo-booth",
-    image: "/images/brand1.jpeg",
+    image: "/images/event1.jpg",
+        // "/images/brand1.jpeg"
   },
   // {
   //   title: "The 360 Experience",

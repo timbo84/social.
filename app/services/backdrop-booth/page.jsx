@@ -8,7 +8,7 @@ const backdropItems = [
   { title: "Multi Colored Floral backdrop", src: "/images/backdrop2.jpeg" },
   { title: "Light Pink Rose Backdrop", src: "/images/backdrop3.jpeg" },
   { title: "Hot Pink Backdrop", src: "/images/backdrop4.jpeg" },
-  // { title: "Blush Pink", src: "/images/backdrop5.jpg" },
+  { title: "Greenery Backdrop", src: "/images/backdrop5.png" },
   // { title: "Midnight Blue", src: "/images/backdrop6.jpg" },
 ];
 
@@ -21,8 +21,7 @@ export default function BackdropBooth() {
         <div className={styles.heroContent}>
           <h1 className={styles.title}>Backdrop Rentals</h1>
           <p className={styles.subtitle}>
-            Set the perfect scene for every moment. Our stunning backdrops turn
-            any photo into a keepsake worth remembering.
+            Every event needs a photo op and every photo op needs a backdrop.
           </p>
         </div>
       </div>

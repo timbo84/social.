@@ -24,7 +24,7 @@ export default function EventPhotoBooth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/event2.jpeg"
+              src="/images/event2.jpg"
               alt="Guests enjoying photo booth"
               className={styles.image}
             />
@@ -64,7 +64,7 @@ export default function EventPhotoBooth() {
           </div>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/event3.jpeg"
+              src="/images/gallery10.jpg"
               alt="Custom themed photo booth"
               className={styles.image}
             />
@@ -75,7 +75,7 @@ export default function EventPhotoBooth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/event4.jpeg"
+              src="/images/event1.jpg"
               alt="Guests posing with props"
               className={styles.image}
             />
