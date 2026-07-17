@@ -8,7 +8,7 @@ const backdropItems = [
   { title: "Multi Colored Floral backdrop", src: "/images/backdrop2.jpeg" },
   { title: "Light Pink Rose Backdrop", src: "/images/backdrop3.jpeg" },
   { title: "Hot Pink Backdrop", src: "/images/backdrop4.jpeg" },
-  { title: "Greenery Backdrop", src: "/images/backdrop5.png" },
+  { title: "Greenery Backdrop", src: "/images/backdrop5.jpeg" },
   // { title: "Midnight Blue", src: "/images/backdrop6.jpg" },
 ];
 

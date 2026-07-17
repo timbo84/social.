@@ -16,11 +16,9 @@ const mediaItems = [
     { type: "image", src: "/images/gallery4.jpg" }, 
     { type: "image", src: "/images/gallery5.png" }, 
     { type: "image", src: "/images/gallery7.jpeg" }, 
-    { type: "image", src: "/images/gallery8.jpg" }, 
-    { type: "image", src: "/images/gallery9.jpg" },
+    { type: "image", src: "/images/gallery8.jpg" },
     { type: "image", src: "/images/gallery11.jpeg" }, 
      { type: "image", src: "/images/gallery6.jpeg" }, 
-     { type: "image", src: "/images/gallery12.png" }, 
      { type: "image", src: "/images/gallery13.jpg" },
      { type: "image", src: "/images/gallery14.jpg" },  
 ];

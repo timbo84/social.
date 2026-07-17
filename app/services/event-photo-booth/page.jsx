@@ -75,7 +75,7 @@ export default function EventPhotoBooth() {
         <div className={styles.content}>
           <div className={styles.mediaBlock}>
             <img
-              src="/images/event1.jpg"
+              src="/images/gallery4.jpg"
               alt="Guests posing with props"
               className={styles.image}
             />
