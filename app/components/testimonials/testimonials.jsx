@@ -4,17 +4,17 @@ import styles from './testimonials.module.css';
 const testimonialsData = [
   {
     quote:
-      "...our traditional photo booth was classy, fun, stylish and a great addition to our wedding. I would give it a 10/5 if I could! If you are debating whether to get a photo booth, I highly recommend it. You won’t regret it.",
+      "We rented the Photo Booth for our wedding and Jesse was so fun. Our guests all loved it! -Ally",
     backgroundClass: 'testimonial1',
   },
   {
     quote:
-      "The photo booth was the highlight of our party! Guests couldn’t stop raving about it. Stylish, easy to use, and the photos were amazing.",
+      "The backdrop was perfect for my granddaughters graduation party. -Heather",
     backgroundClass: 'testimonial2',
   },
   {
     quote:
-      "We booked Social Event Rentals for our corporate gala and the experience was flawless. Professional setup, great energy, and beautiful results.",
+      "Highly recommend! All the set up and tear down was taken care of and they even set up the light we brought for the rose wall. Everybody complimented it all night. -Andrea",
     backgroundClass: 'testimonial3',
   },
 ];
