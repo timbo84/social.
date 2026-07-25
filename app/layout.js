@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Social Event Rentals",
     images: [
       {
-        url: "/images/backdrop1.jpeg",
+        url: "/images/c8.jpeg",
         width: 1200,
         height: 630,
         alt: "Social Event Rentals",
@@ -58,7 +58,7 @@ export const metadata = {
     title: "Social Event Rentals",
     description:
       "Social Event Rentals provides premium party equipment and event design services to elevate any celebration.",
-    images: ["/images/backdrop1.jpeg"],
+    images: ["/images/c8.jpeg"],
   },
 };
 
