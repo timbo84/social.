@@ -34,6 +34,9 @@ export const metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: "31xhbhFhNaHSdRPBDjl9SZl9Va-ZSiSfK9VD_BLIQ6g",
+  },
   openGraph: {
     title: "Social Event Rentals",
     description:
