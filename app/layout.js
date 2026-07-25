@@ -15,9 +15,48 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://www.socialeventrentalsne.com"),
   title: "Social Event Rentals",
   description:
     "Social Event Rentals provides premium party equipment and event design services to elevate any celebration. With years of experience and a passion for unforgettable experiences, we deliver high-quality rentals and creative setups for weddings, corporate events, and private gatherings.",
+  keywords: [
+    "photo booth rental",
+    "backdrop rental",
+    "flower arch rental",
+    "event rentals",
+    "party rentals",
+    "wedding photo booth",
+    "corporate event rentals",
+    "glam booth",
+    "Social Event Rentals",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "Social Event Rentals",
+    description:
+      "Social Event Rentals provides premium party equipment and event design services to elevate any celebration.",
+    url: "https://www.socialeventrentalsne.com",
+    siteName: "Social Event Rentals",
+    images: [
+      {
+        url: "/images/backdrop1.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Social Event Rentals",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Social Event Rentals",
+    description:
+      "Social Event Rentals provides premium party equipment and event design services to elevate any celebration.",
+    images: ["/images/backdrop1.jpeg"],
+  },
 };
 
 export default function RootLayout({ children }) {
