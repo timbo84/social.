@@ -4,9 +4,10 @@ import { useState, useEffect } from "react";
 
 const mediaItems = [
   
-    { type: "image", src: "/images/corporate2.jpeg" }, 
-    { type: "image", src: "/images/corporate4.jpeg" }, 
+    { type: "image", src: "/images/gallery13.jpg" }, 
+    { type: "image", src: "/images/gallery6.jpg" }, 
     { type: "image", src: "/images/flowerArch.jpg" }, 
+    { type: "image", src: "/images/gallery15.jpg" },
     { type: "image", src: "/images/flower2.jpg" }, 
     { type: "image", src: "/images/c8.jpeg" }, 
     { type: "image", src: "/images/c12.jpg" }, 
@@ -17,10 +18,14 @@ const mediaItems = [
     { type: "image", src: "/images/gallery5.png" }, 
     { type: "image", src: "/images/gallery7.jpeg" }, 
     { type: "image", src: "/images/gallery8.jpg" },
+    { type: "image", src: "/images/gallery12.jpg" },
     { type: "image", src: "/images/gallery11.jpeg" }, 
      { type: "image", src: "/images/gallery6.jpeg" }, 
-     { type: "image", src: "/images/gallery13.jpg" },
-     { type: "image", src: "/images/gallery14.jpg" },  
+     { type: "image", src: "/images/gallery16.jpg" },
+     { type: "image", src: "/images/gallery14.jpg" },
+     { type: "image", src: "/images/gallery18.jpg" },
+     { type: "image", src: "/images/gallery19.jpg" },  
+     { type: "image", src: "/images/gallery17.jpg" },
 ];
 
 export default function Gallery() {

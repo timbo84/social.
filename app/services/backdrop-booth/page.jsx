@@ -5,11 +5,12 @@ import styles from "./backdropBooth.module.css";
 
 const backdropItems = [
   { title: "White Rose Backdrop", src: "/images/backdrop1.jpeg" },
-  { title: "Multi Colored Floral backdrop", src: "/images/backdrop2.jpeg" },
+  { title: "Multi Colored Floral Backdrop", src: "/images/backdrop2.jpeg" },
   { title: "Light Pink Rose Backdrop", src: "/images/backdrop3.jpeg" },
   { title: "Hot Pink Backdrop", src: "/images/backdrop4.jpeg" },
   { title: "Greenery Backdrop", src: "/images/backdrop5.jpeg" },
-  // { title: "Midnight Blue", src: "/images/backdrop6.jpg" },
+  { title: "Brown & Gold Floral Backdrop", src: "/images/backdrop6.jpg" },
+  { title: "Green & White Floral Backdrop", src: "/images/backdrop7.jpg" },
 ];
 
 export default function BackdropBooth() {
