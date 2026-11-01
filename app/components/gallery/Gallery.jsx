@@ -25,7 +25,16 @@ const mediaItems = [
      { type: "image", src: "/images/gallery14.jpg" },
      { type: "image", src: "/images/gallery18.jpg" },
      { type: "image", src: "/images/gallery19.jpg" },  
-     { type: "image", src: "/images/gallery17.jpg" },
+     { type: "image", src: "/images/gallery21.jpg" },
+     { type: "image", src: "/images/gallery22.jpg" },
+     { type: "image", src: "/images/gallery23.jpg" },
+     { type: "image", src: "/images/gallery24.jpg" },
+     { type: "image", src: "/images/gallery25.jpg" },
+     { type: "image", src: "/images/gallery26.jpg" },
+     { type: "image", src: "/images/gallery27.jpg" },
+     { type: "image", src: "/images/gallery28.jpg" },
+     { type: "image", src: "/images/gallery29.jpg" },
+     { type: "image", src: "/images/gallery30.jpg" },
 ];
 
 export default function Gallery() {
