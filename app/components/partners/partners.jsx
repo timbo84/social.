@@ -9,14 +9,17 @@ const images = [
  // { alt: 'c10', src: '/images/.jpeg' },
   { alt: 'twoGirls', src: '/images/twoGirls.jpg' },
   { alt: 'c12', src: '/images/c12.jpg' },
+  { alt: 'c18', src: '/images/gallery31.jpg' },
   { alt: 'c13', src: '/images/gallery13.jpg' },
   { alt: 'fourGirls', src: '/images/fourGirls.jpg' },
   //{ alt: 'c15', src: '/images/.jpeg' },
   { alt: 'c16', src: '/images/c16.jpeg' },
   { alt: 'c18', src: '/images/c18.jpeg' },
+  { alt: 'c18', src: '/images/gallery33.jpg' },
   { alt: 'c17', src: '/images/c17.jpeg' },
   { alt: 'c19', src: '/images/c19.jpeg' },
   { alt: 'c20', src: '/images/c20.jpeg' },
+  { alt: 'c20', src: '/images/gallery34.jpg' },
 ];
 
 export default function CompanyGallery() {

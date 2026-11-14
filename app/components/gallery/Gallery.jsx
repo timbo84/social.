@@ -35,6 +35,10 @@ const mediaItems = [
      { type: "image", src: "/images/gallery28.jpg" },
      { type: "image", src: "/images/gallery29.jpg" },
      { type: "image", src: "/images/gallery30.jpg" },
+     { type: "image", src: "/images/gallery31.jpg" },
+     { type: "image", src: "/images/gallery32.jpg" },
+     { type: "image", src: "/images/gallery33.jpg" },
+     { type: "image", src: "/images/gallery34.jpg" },
 ];
 
 export default function Gallery() {

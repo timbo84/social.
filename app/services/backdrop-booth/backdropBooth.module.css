@@ -144,8 +144,12 @@
   margin-top: 4rem;
 }
 
+.backdropSection:first-child {
+  margin-top: 1rem;
+}
+
 .backdropHeading {
-  text-align: center;
+  text-align: left;
   font-size: 1.75rem;
   font-weight: 600;
   margin-bottom: 2rem;
@@ -155,7 +159,7 @@
 .backdropGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 2px;
 }
 
 .backdropCard {
@@ -165,19 +169,64 @@
 }
 
 .backdropCardTitle {
-  font-size: 1rem;
-  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
   color: #333;
   text-align: center;
   margin: 0;
+  line-height: 1.5;
+}
+
+.backdropCardNumber {
+  font-weight: 600;
+}
+
+.backdropCardName {
+  color: #555;
+}
+
+.backdropCardImageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 6px;
+  background: linear-gradient(135deg, rgba(240, 240, 240, 0.6), rgba(210, 210, 210, 0.6));
 }
 
 .backdropCardImage {
-  width: 100%;
-  aspect-ratio: 3 / 4;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 96%;
+  height: 96%;
   object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  display: block;
+  border-radius: 4px;
+  transform: scale(1);
+  transform-origin: center;
+  transition: transform 1.2s ease, border-radius 1.2s ease;
+}
+
+.backdropCard:hover .backdropCardImage {
+  transform: scale(1.15);
+  border-radius: 6px;
+}
+
+/* Questions */
+.questionsSection {
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 3rem;
+  border-top: 2px solid #eee;
+}
+
+.questionsHeading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.25rem;
 }
 
 /* Responsive */
